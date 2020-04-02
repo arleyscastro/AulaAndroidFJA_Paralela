@@ -1,0 +1,2 @@
+rootProject.name='Cadastro Legal'
+include ':app'

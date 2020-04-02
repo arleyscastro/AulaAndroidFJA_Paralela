@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cadastro Legal</string>
+    <string name="salvar">Salvar</string>
+    <string name="voltar">Voltar</string>
+    <string name="nome_obrigatorio">O nome deve ser informado</string>
+    <string name="nome">Nome</string>
+    <string name="endereco">Endereço</string>
+    <string name="sexo">Sexo</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="dtnascimento">Data de nascimento</string>
+    <string name="estadocivil">Estado civil</string>
+    <string name="ativo">Ativo</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="consultar">Consultar</string>
+    <string name="alterar">Alterar</string>
+    <string name="deletar">Deletar</string>
+    <string name="solteiro">Solteiro(a)</string>
+    <string name="casado">Casado(a)</string>
+    <string name="viuvo">Viuvo(a)</string>
+    <string name="divorciado">Divorciado(a)</string>
+
+</resources>
