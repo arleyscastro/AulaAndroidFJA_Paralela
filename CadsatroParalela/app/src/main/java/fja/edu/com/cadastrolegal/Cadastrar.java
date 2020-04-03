@@ -82,13 +82,13 @@ public class Cadastrar extends AppCompatActivity {
             Utilidades.Alerta(this,getString(R.string.nome_obrigatorio));
             txtNome.requestFocus();
         }else if(txtEndereco.getText().toString().trim().isEmpty()){
-            Utilidades.Alerta(this,"ENDEREÇO X strnig.xml X");
+            Utilidades.Alerta(this,getString(R.string.endereco_obrigatorio));
             txtEndereco.requestFocus();
         }else if(txtDtNasc.getText().toString().trim().isEmpty()){
-            Utilidades.Alerta(this,"DT NASCIMENTO X strnig.xml X");
+            Utilidades.Alerta(this,getString(R.string.dtnascimento_obrigatorio));
             txtDtNasc.requestFocus();
         }else if(!rbSexoFem.isChecked() && !rbSexoMasc.isChecked()){
-            Utilidades.Alerta(this,"SEXO X strnig.xml X");
+            Utilidades.Alerta(this,getString(R.string.sexo_obrigatorio));
         }else{
             PessoaDto pessoa = new PessoaDto();
             pessoa.setNome(txtNome.getText().toString());
@@ -107,7 +107,7 @@ public class Cadastrar extends AppCompatActivity {
                 pessoa.setAtivo("0");
             }
             new PessoaRepository(this).salvar(pessoa);
-            Utilidades.Alerta(this,"SALVO OK X string.xml X");
+            Utilidades.Alerta(this,getString(R.string.salvo_ok));
             this.limaCampos();
         }
 

@@ -3,6 +3,9 @@
     <string name="salvar">Salvar</string>
     <string name="voltar">Voltar</string>
     <string name="nome_obrigatorio">O nome deve ser informado</string>
+    <string name="endereco_obrigatorio">O endereço deve ser informado</string>
+    <string name="dtnascimento_obrigatorio">A data de nascimento deve ser informada</string>
+    <string name="sexo_obrigatorio">O sexo deve ser informado</string>
     <string name="nome">Nome</string>
     <string name="endereco">Endereço</string>
     <string name="sexo">Sexo</string>
@@ -19,5 +22,6 @@
     <string name="casado">Casado(a)</string>
     <string name="viuvo">Viuvo(a)</string>
     <string name="divorciado">Divorciado(a)</string>
+    <string name="salvo_ok">Registro salvo com sucesso</string>
 
 </resources>
