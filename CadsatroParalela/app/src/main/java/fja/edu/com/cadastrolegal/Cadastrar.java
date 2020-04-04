@@ -46,7 +46,7 @@ public class Cadastrar extends AppCompatActivity {
     protected void vincularComponentes(){
         txtNome = (EditText)this.findViewById(R.id.cadTxtNome);
         txtEndereco = (EditText)this.findViewById(R.id.cadTxtEndereco);
-        txtDtNasc = (EditText)this.findViewById(R.id.cadTxtEndereco);
+        txtDtNasc = (EditText)this.findViewById(R.id.cadTxtDtNasc);
         rbSexoMasc = (RadioButton)this.findViewById(R.id.cadRbMasc);
         rbSexoFem = (RadioButton)this.findViewById(R.id.cadRbFem);
         spEstadoCivil = (Spinner)this.findViewById(R.id.cadSpinEstCivil);

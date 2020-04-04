@@ -18,10 +18,16 @@
     <string name="consultar">Consultar</string>
     <string name="alterar">Alterar</string>
     <string name="deletar">Deletar</string>
+    <string name="editar">Editar</string>
     <string name="solteiro">Solteiro(a)</string>
     <string name="casado">Casado(a)</string>
     <string name="viuvo">Viuvo(a)</string>
     <string name="divorciado">Divorciado(a)</string>
     <string name="salvo_ok">Registro salvo com sucesso</string>
+    <string name="registroativo">Registro ativo:SIM</string>
+    <string name="registroinativo">Registro ativo:NÃO</string>
+    <string name="registrodeletado">Registro excluido cmosucesso!</string>
+
+
 
 </resources>
