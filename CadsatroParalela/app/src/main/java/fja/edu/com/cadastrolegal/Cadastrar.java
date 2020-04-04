@@ -109,6 +109,7 @@ public class Cadastrar extends AppCompatActivity {
             new PessoaRepository(this).salvar(pessoa);
             Utilidades.Alerta(this,getString(R.string.salvo_ok));
             this.limaCampos();
+            //Teste...
         }
 
     }
