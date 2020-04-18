@@ -98,7 +98,7 @@ public class LinhaAdapter  extends BaseAdapter {
             }
         });
 
-        return null;
+        return viewLinha;
     }
 
     private String GetEstadoCivil(String cod){
