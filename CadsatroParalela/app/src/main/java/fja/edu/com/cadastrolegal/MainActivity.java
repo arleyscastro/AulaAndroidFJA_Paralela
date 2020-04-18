@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
                     ok=true;
                 }
                 if(opcao.equalsIgnoreCase(getString(R.string.consultar))){
-                    Utilidades.Alerta(MainActivity.this, opcao);
+                    novatela = new Intent(MainActivity.this, ConsultarActivity.class);
+                    ok=true;
                 }
                 if(opcao.equalsIgnoreCase(getString(R.string.alterar))){
                     Utilidades.Alerta(MainActivity.this, opcao);
@@ -61,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 if(opcao.equalsIgnoreCase(getString(R.string.deletar))){
                     Utilidades.Alerta(MainActivity.this, opcao);
                 }
+
                 if(ok){
                     startActivity(novatela);
                     finish();

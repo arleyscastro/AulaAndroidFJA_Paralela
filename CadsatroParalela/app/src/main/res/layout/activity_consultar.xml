@@ -19,7 +19,7 @@
             android:text="@string/voltar"
             android:id="@+id/conBtnVoltar"
             android:background="@android:color/transparent"
-            android:textColor="#276be"/>
+            android:textColor="@android:color/holo_blue_bright"/>
 
     </RelativeLayout>
 

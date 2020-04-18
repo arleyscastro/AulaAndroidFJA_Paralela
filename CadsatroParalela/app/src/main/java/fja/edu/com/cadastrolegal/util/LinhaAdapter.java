@@ -61,17 +61,18 @@ public class LinhaAdapter  extends BaseAdapter {
         Button btnDeletar = (Button)viewLinha.findViewById(R.id.linBtnDeletar);
         Button btnEditar = (Button)viewLinha.findViewById(R.id.linBtnEditar);
 
-        txtCodigo.setText(pessoas.get(position).getCodigo());
-        txtNome.setText(pessoas.get(position).getNome());
-        txtEndereco.setText(pessoas.get(position).getEndereco());
+        txtCodigo.setText(String.valueOf(pessoas.get(position).getCodigo()));
+        txtNome.setText(String.valueOf(pessoas.get(position).getNome()));
+        txtEndereco.setText(String.valueOf(pessoas.get(position).getEndereco()));
         if(pessoas.get(position).getSexo().equalsIgnoreCase("M")){
             txtSexo.setText(String.valueOf(R.string.masculino));
         }else{
             txtSexo.setText(String.valueOf(R.string.feminino));
         }
-        txtEstadoCivil.setText(this.GetEstadoCivil(pessoas.get(position).getEstadocivil()));
 
-        txtDtNascimento.setText(pessoas.get(position).getDatanascimento());
+        txtEstadoCivil.setText(this.GetEstadoCivil(String.valueOf(pessoas.get(position).getEstadocivil())));
+
+        txtDtNascimento.setText(String.valueOf(pessoas.get(position).getDatanascimento()));
         if(pessoas.get(position).getAtivo().equalsIgnoreCase("1")){
             txtAtivo.setText(String.valueOf(R.string.registroativo));
         }else{
