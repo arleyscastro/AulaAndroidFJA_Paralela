@@ -1,4 +1,4 @@
-package fja.edu.br.calculo;
+package fja.edu.br.legal.calculo;
 
 public class CalculadoraSimples {
 

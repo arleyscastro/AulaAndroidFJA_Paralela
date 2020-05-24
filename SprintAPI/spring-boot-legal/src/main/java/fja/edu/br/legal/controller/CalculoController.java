@@ -1,4 +1,4 @@
-package fja.edu.br.controller;
+package fja.edu.br.legal.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import fja.edu.br.calculo.CalculadoraSimples;
+import fja.edu.br.legal.calculo.CalculadoraSimples;
 
 
 @RestController
@@ -15,16 +15,16 @@ public class CalculoController {
 
 	private CalculadoraSimples calc = new CalculadoraSimples();
 	
-	@RequestMapping(value = "/soma/{num1}/{num2}", method = RequestMethod.GET)
-	public Double soma(@PathVariable("num1") String num1, @PathVariable("num2")String num2) {
+	@RequestMapping(value = "/sum/{val1}/{val2}", method=RequestMethod.GET)
+	public Double soma(@PathVariable("val1") String val1, @PathVariable("val2") String val2) {
 		
-		return calc.soma(Double.parseDouble(num1), Double.parseDouble(num2));
+		return calc.soma(Double.parseDouble(val1), Double.parseDouble(val2));
 		
 	}
 	
-	@GetMapping("/sum/{val1}/{val2}")
-	public Double sum(@PathVariable("val1")Double val1, @PathVariable("val2")Double val2) {
-		return calc.soma(val1, val2);
+	@GetMapping("/outrasoma/{nr1}/{nr2}")
+	public Double outrasoma(@PathVariable("nr1") Double nr1, @PathVariable("nr2") Double nr2) {
+		return calc.soma(nr1, nr2);
 	}
 	
 	
