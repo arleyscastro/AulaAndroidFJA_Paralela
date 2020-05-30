@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cX/a6gZNxzeQrvK0obA1dibDDTq3HX/V7hojftpSRwjkf/Hxm8uEWNsE/1TC95oAsDY65/QLhzbjMANhYwDFlA==",
+  "success": true,
+  "projectFilePath": "D:\\AulasLAB\\AulaAndroidFJA_Paralela\\ApiCS\\ApiCsExemplo\\ApiCsExemplo\\ApiCsExemplo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arleys\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
