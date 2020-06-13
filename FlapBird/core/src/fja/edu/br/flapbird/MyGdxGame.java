@@ -15,7 +15,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	private float velocidadeDeQueda=0;
 	private float posicaoInicialVertical=0;
 
-	private int estadoDoJogo=0;  //0-> joago não iniciado; 1->Jojos iniciado; 2->Game Over
+	private int estadoDoJogo=0;  //0-> jogo não iniciado; 1->Jogo iniciado; 2->Game Over
 	
 	@Override
 	public void create () {
